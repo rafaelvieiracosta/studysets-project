@@ -1,0 +1,25 @@
+@import './utilities/componentes.css';
+
+/* global */
+@import './global/header.css';
+@import './global/footer.css';
+@import './global/global.css';
+
+/* utilities */
+@import './utilities/tipografia.css';
+@import './utilities/cores.css';
+
+/* home */
+@import './home/introducao.css';
+@import './home/planejamento.css';
+@import './home/parceiros.css';
+@import './home/depoimento.css';
+
+
+/* planos */
+@import './planos/planos.css';
+@import './planos/planos-lista.css';
+
+
+
+
