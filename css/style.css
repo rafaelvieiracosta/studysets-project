@@ -15,10 +15,19 @@
 @import './home/parceiros.css';
 @import './home/depoimento.css';
 
+/* conjunto */
+@import './conjunto/conjunto.css';
+@import './conjunto/plan.css';
 
 /* planos */
 @import './planos/planos.css';
+@import './planos/conjuntos.css';
+@import './planos/vantagens.css';
+@import './planos/perguntas.css';
 @import './planos/planos-lista.css';
+
+/* termos */
+@import './termos/termos.css';
 
 
 

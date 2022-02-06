@@ -1,0 +1,46 @@
+.plan-bg{
+  background-color: var(--c11);
+  box-shadow: inset 0 120px var(--c0), inset 0 -120px var(--c12);
+}
+.plan{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.plan-imagem img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.plan-conteudo{
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.plan h2{
+  margin-bottom: 32px;
+}
+
+.plan p{
+  margin-bottom: 20px;
+}
+
+@media (max-width:800px){
+  .plan{
+    grid-template-columns: 1fr;
+  }
+  .plan-conteudo{
+    grid-row: 1;
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+  .plan-imagem{
+    height: 200px;
+  }
+  .plan-bg{
+    background-color: var(--c11);
+    box-shadow: inset 0 -60px var(--c12);
+  }
+}

@@ -1,5 +1,5 @@
 .planos-lista{
-  padding: 60px 0;
+  padding: 60px 20px;
 }
 
 .planos-lista ul{
@@ -9,6 +9,10 @@
   max-width: 1400px;
   margin: 0 auto;
   overflow-x: auto;
+}
+
+#conjunto .planos-lista ul{
+  padding: 0 0 20px 0;
 }
 
 .planos-lista li{
@@ -54,7 +58,7 @@
 
 @media (max-width:800px){
   .planos-lista{
-    padding: 40px 0 60px 0;
+    padding: 40px 20px 60px 20px;
   }
 
   .planos-lista ul{
